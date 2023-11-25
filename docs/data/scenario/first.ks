@@ -38,7 +38,7 @@
 
 *tag_blue
 
-[bg storage=annsin.jpg time=500]
+[bg storage=annsin.png time=500]
 
 [cm]
 静寂に包まれた。[l][r]

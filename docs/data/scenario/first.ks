@@ -1,45 +1,49 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="時計じかけの摩天楼"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「時計じかけの摩天楼」[l][r]
 
-メロスは激怒した。[l][r]
+街で連続放火事件が発生した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+その犯人は信一に対して爆破予告をし、爆発に蘭が巻き込まれてしまった。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+蘭は信一の声に従い順調に爆弾の解除を進めるが、最後には赤と青の導線が残った。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+爆発寸前まで考えるも正しい導線はわからなかった。[l][r]
+
+爆弾のカウントが０に近づき、蘭が切ったのは...[l][r]
+
+[link target=*tag_red] →赤の線 [endlink][r]
+[link target=*tag_blue] →青の線 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_red
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=bakuhatsu.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+爆発が起こった。[l][r]
+切った線は間違っていたのだ。[l][r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_blue
 
-[bg storage=run.jpg time=500]
+[bg storage=annsin.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+静寂に包まれた。[l][r]
+爆弾は解除されたのだ。[l][r]
+[r]
 
 【 GOOD END 】[l][cm]
 
